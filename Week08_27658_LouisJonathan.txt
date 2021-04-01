@@ -1,0 +1,10 @@
+Week 08 - 27658
+
+Aplikasi pertama telah berjalan dengan baik mengimplementasikan bagaimana cara kerja Text Editor dan Storage. Aplikasi ini bertujuan untuk mendemonstrasikan bagaimana suatu aplikasi android dapat membuat sebuah file dan mengisinya dengan text atau string. Terdapat 3 jenis storage yang digunakan dalam aplikasi yaitu:
+1. Temp / Cache --> Text/File yang disimpan akan hilang ketika aplikasi exit.
+2. Internal --> Text/File yang disimpan akan hilang ketika aplikasi dihapus.
+3. External --> Text/File yang disimpan tidak akan hilang meskipun exit ataupun dihapus aplikasinya.
+
+Kemudian terdapat button" yang digunakan untuk open, save, clear, delete file / isi file. 
+
+Aplikasi kedua telah berjalan dengan baik mengimplementasikan shared preferences dan saved instances. Dalam aplikasi ini yang dijadikan key value untuk dijadikan session adalah angka dan warna. Nilai angka dan warna akan diset default saat aplikasi diinstal pertama kali yaitu 0 dan grey. Ketika kita menekan tombol tambah, maka angka 0 akan bertambah menjadi 1 dst. Terdapat 4 jenis warna latar yang dapat diubah yaitu hitam, merah, biru, dan hijau. Ketika kita exit aplikasi lalu masuk lagi, maka last changes dari angka, dan warna tetap ada. Terdapat juga tombol reset untuk mereset ulang settingan awal aplikasi saat diinstal.
